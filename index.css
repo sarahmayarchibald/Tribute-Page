@@ -42,12 +42,14 @@ p {
   align-items: center;
   width: 80%;
   margin: 30px;
-  border: 2px solid #c1a57b;
+  border-radius: 5px;
+  background-color: #30475e;
 }
 
 .box p {
   text-align: center;
   margin: 20px;
+  
 }
 
 .btn {
