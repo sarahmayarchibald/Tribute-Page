@@ -11,7 +11,10 @@ html, body {
 }
 
 img {
-  width: 100%;
+  width: 80%;
+  height: 30%;
+  object-fit: contain;
+  
 }
 
 h1, h2 {
@@ -21,19 +24,30 @@ h1, h2 {
 h2 {
   margin: 10px 0;
   text-align: center;
+  font-size: 30px;
 }
 
 a {
   text-decoration: none;
 }
 
+p {
+  font-size: 20px;
+}
+
 .box {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 30px;
+  border: 2px solid #c1a57b;
 }
 
 .box p {
   text-align: center;
+  margin: 20px;
 }
 
 .btn {
@@ -44,7 +58,7 @@ a {
   cursor: pointer;
   border-radius: 5px;
   border: none;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 
 .btn:hover {
@@ -97,13 +111,17 @@ a {
 
 /* Suport Section */
 .support-fam {
-  padding: 0 30px 30px;
   min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 0 auto 30px;
 }
 
-
 .support-links {
-  display: flex;
+ display: flex;
+ height: 500px;
+ 
 }
 
 /* Activism */
